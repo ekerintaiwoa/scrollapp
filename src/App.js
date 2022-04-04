@@ -1,5 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
+import {FiArrowUpCircle} from 'react-icons/fi' ;
+import { animateScroll as scroll } from "react-scroll/modules";
 
 function App() {
   return (
@@ -60,6 +62,9 @@ One of the victim who was an elderly man revealed that he was abducted by the in
 Another victim who is an elderly woman stated that she has been in Boko Haram captivity for more than eight years now.
 
 A military source further said the victims were rescued along with other girls. The source added that Nigerian troops are now occupying Sabisa forest.
+
+
+<FiArrowUpCircle color="green" size= '2rem' onClick={()=>scroll.scrollToTop()}/>
       </div>
     </div>
   );
